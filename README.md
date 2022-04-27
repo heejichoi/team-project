@@ -1,1 +1,3 @@
-# team-project
+# team-project : 사이트 리뉴얼
+#2022-04-27 
+팀 : 박수현,최희지

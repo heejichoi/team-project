@@ -78,6 +78,7 @@ header {
     height: 50px;
     box-sizing: border-box;
     color: #0E3C82 !important;
+    font-size: 20px;
     font-weight: 700;
 }
 .menuhover:hover {
@@ -90,7 +91,7 @@ header {
 .gnb-bg {
     position: absolute;
     width: 1200px;
-    height: 300px;
+    height: 0px;
     top: 100px;
     background: #F1F1F1;
 }
@@ -153,7 +154,15 @@ header {
     bottom: 1px;
     width: 350px;
     height: 100px;
+    box-sizing: border-box;
+    padding: 25px 0 0 15px ;
     background: #ffffff;
+}
+.gallery-cover h2 {
+    margin: 0 0 6px 0;
+}
+.gallery-cover h3 {
+    font-size: 20px;
 }
 .campaign-wrap {
     width: 1150px;
@@ -165,10 +174,28 @@ header {
 .campaign {
     width: 550px;
     height: 250px;
-    background: #CEE3F1;
+    background: #ECF4F9;
     border-radius: 30px;
     box-sizing: border-box;
     padding: 25px;
+    position: relative;
+}
+.campaign h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    color: #0E3C82;
+}
+.campaign h3 {
+    font-size: 32px;
+    /* font-weight: 600; */
+}
+.campaign p {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    font-size: 80px;
+    color: #0E3C82;
 }
 footer {
     width: 1200px;

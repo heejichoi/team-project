@@ -249,8 +249,33 @@ address p {
 .sidebar {
     width: 265px;
     height: 260px;
-    padding: 5px;
+    padding: 20px 10px ;
+    box-sizing: border-box;
     background: #CEE3F1;
+}
+.sidebar p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0E3C82;
+    padding: 0 0 0 15px;
+}
+.sidebar ul {
+    border-top: 5px solid #4F93C3;
+    padding: 10px 0;
+    margin: 15px 0 0 0;
+}
+.sidebar li {
+    font-size: 16px;
+    width: 230px;
+    height: 30px;
+    margin: 2px 0;
+    padding: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+.side-on {
+    background: #ECF4F9;
+    border-left: 3px solid #4F93C3;
 }
 .main {
     width: 895px;
@@ -261,24 +286,31 @@ address p {
     font-weight: 700;
     color: #0E3C82;
     text-align: left;
-    text-indent: 10px;
+    text-indent: 20px;
+    padding: 0 0 20px 0;
+    margin: 15px 0 20px 0;
+    border-bottom: 3px solid #4F93C3;
 }
 .contents {
-    margin: 10px 0 0 0;
-    border-top: 3px solid #4F93C3;
+    width: 850px;
+    height: auto;
+    margin: 0 auto;
 }
 .contents h3 {
     font-size: 26px;
+    font-weight: 600;
     text-align: center;
-    margin: 10px;
+    margin: 20px;
 }
 .contents h4 {
     width: 190px;
     height: 50px;
     box-sizing: border-box;
+    font-size: 20px;
     background: #CEE3F1;
     text-align: center;
     padding: 16px;
+    margin: 20px 0 10px 0;
 }
 .resort-tab {
     display: flex;
@@ -287,5 +319,16 @@ address p {
 .resort-tab li {
     width: 190px;
     height: 50px;
-    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid #4F93C3;
+    margin: 0 0 10px 0;
+}
+.info-active {
+    background: #4F93C3 !important;
+    color: #ffffff;
 }

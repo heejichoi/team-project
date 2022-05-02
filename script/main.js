@@ -3,6 +3,8 @@ $(function(){
     popup();
     menu();
     setInterval(carousel, 4000);
+    sidemenu();
+    infotab();
 })
 function popup(){
     $("#popup button").click(function(){
@@ -30,4 +32,18 @@ function carousel(){
         marginLeft: xPos,
     });
     i++;
+};
+function sidemenu(){
+    $(".sidebar > ul > li").mouseenter(function(){
+        $(this).addClass("side-on");
+    });
+    $(".sidebar > ul > li").mouseleave(function(){
+        $(this).removeClass("side-on");
+    });
+};
+function infotab(){
+    $(".resort-tab > li").click(function(){
+        $(this).addClass("info-active");
+        $(this).siblings().removeClass("info-active");
+    })
 };

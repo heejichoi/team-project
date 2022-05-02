@@ -312,6 +312,11 @@ address p {
     padding: 16px;
     margin: 20px 0 10px 0;
 }
+.resort-family-img {
+    width: 630px;
+    height: 385px;
+    margin: 0 auto;
+}
 .resort-tab {
     display: flex;
     justify-content: space-between;
@@ -331,4 +336,20 @@ address p {
 .info-active {
     background: #4F93C3 !important;
     color: #ffffff;
+}
+table {
+    width: 850px;
+}
+th {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+td {
+    text-align: center;
+    height: 30px;
+}
+.td-left {
+    text-align: left;
 }

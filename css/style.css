@@ -1,4 +1,8 @@
 @charset "utf-8";
+::selection {
+    background: #4F93C3;
+    color: #ffffff;
+}
 a, a:link {
     text-decoration: none;
     color: inherit;
@@ -8,6 +12,9 @@ ul, li {
 }
 .d-none {
     display: none;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
 }
 /*index*/
 #popup {
@@ -229,4 +236,56 @@ footer {
 }
 address p {
     font-size: 12px;
+}
+/*resort*/
+.resort-section {
+    width: 1200px;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.sidebar {
+    width: 265px;
+    height: 260px;
+    padding: 5px;
+    background: #CEE3F1;
+}
+.main {
+    width: 895px;
+    padding: 10px;
+}
+.main h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E3C82;
+    text-align: left;
+    text-indent: 10px;
+}
+.contents {
+    margin: 10px 0 0 0;
+    border-top: 3px solid #4F93C3;
+}
+.contents h3 {
+    font-size: 26px;
+    text-align: center;
+    margin: 10px;
+}
+.contents h4 {
+    width: 190px;
+    height: 50px;
+    box-sizing: border-box;
+    background: #CEE3F1;
+    text-align: center;
+    padding: 16px;
+}
+.resort-tab {
+    display: flex;
+    justify-content: space-between;
+}
+.resort-tab li {
+    width: 190px;
+    height: 50px;
+    text-align: center;
 }

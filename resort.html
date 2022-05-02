@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>금호리조트</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7435ab004e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <script src="script/jquery-3.6.0.min.js"></script>
@@ -19,7 +22,7 @@
                 <li><a href="/login">로그인/회원가입</a></li>
                 <li><a href="/payment">결제</a></li>
             </ul>
-            <div class="logo"><img src="images/logo.png" alt="로고"></div>
+            <div class="logo"><a href="/"><img src="images/logo.png" alt="로고"></a></div>
             <div class="gnb-wrap">
                 <ul id="gnb">
                     <li>
@@ -71,15 +74,42 @@
             <div class="gnb-bg"></div>
         </header>
     </div>
-    <div class="sidebar">
-        <p>리조트</p>
-        <ul>
-            <li><a href="#">통영리조트</a></li>
-            <li><a href="#">화순리조트</a></li>
-            <li><a href="#">설악리조트</a></li>
-            <li><a href="#">제주리조트</a></li>
-        </ul>
-    </div>
+    <section class="resort-section">
+        <div class="sidebar">
+            <p>리조트</p>
+            <ul>
+                <li><a href="/resort">통영리조트</a></li>
+                <li><a href="/hwasun">화순리조트</a></li>
+                <li><a href="/sulak">설악리조트</a></li>
+                <li><a href="/jeju">제주리조트</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h2>통영리조트</h2>
+            <div class="contents">
+                <h3>리조트안내</h3>
+                <img src="" alt="통영_리조트이미지">
+                <h3>객실안내</h3>
+                <ul class="resort-tab">
+                    <li class="info-active">패밀리디럭스</li>
+                    <li>스위트디럭스</li>
+                    <li>스위트프리미어</li>
+                    <li>로얄스위트디럭스</li>
+                </ul>
+                <ul class="resort-family">
+                    <li><img src="" alt="통영_객실이미지_패밀리"></li> <!-- 설마... 이것도 캐러셀? ...도전해보기? -->
+                    <li>
+                        <h4>객실정보</h4>
+                        <div>표...</div>
+                        <h4>객실요금</h4>
+                        <div>표...</div>
+                        <h4>주요객실비품</h4>
+                        <div>표...</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <footer>
         <address>
             <p>회사소개 | 제휴문의 | 공정거래자율준수선언 | 개인정보처리방침 | 이용약관 | 전자공고 | 온라인 제보실</p>

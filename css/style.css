@@ -296,6 +296,9 @@ address p {
     height: auto;
     margin: 0 auto;
 }
+.resort-main {
+    text-align: center;
+}
 .contents h3 {
     font-size: 26px;
     font-weight: 600;
@@ -312,10 +315,13 @@ address p {
     padding: 16px;
     margin: 20px 0 10px 0;
 }
-.resort-family-img {
+.resort-img {
     width: 630px;
     height: 385px;
     margin: 0 auto;
+}
+.resort-text {
+    margin: 20px 0 0 0;
 }
 .resort-tab {
     display: flex;

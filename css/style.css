@@ -337,19 +337,3 @@ address p {
     background: #4F93C3 !important;
     color: #ffffff;
 }
-table {
-    width: 850px;
-}
-th {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-}
-td {
-    text-align: center;
-    height: 30px;
-}
-.td-left {
-    text-align: left;
-}

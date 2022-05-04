@@ -43,7 +43,11 @@ function sidemenu(){
 };
 function infotab(){
     $(".resort-tab > li").click(function(){
-        $(this).addClass("info-active");
-        $(this).siblings().removeClass("info-active");
-    })
+        const num = $(".resort-tab > li").index($(this));
+        $(".resort-tab > li").removeClass("info-active");
+        $(".tab-contents > ul").removeClass("on");
+        console.log(num);
+        $(".resort-tab > li").eq(num).addClass("info-active");
+        $(".tab-contents > ul").eq(num).addClass("on");
+    });
 };

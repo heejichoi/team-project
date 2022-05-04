@@ -248,7 +248,6 @@ address p {
 }
 .sidebar {
     width: 265px;
-    height: 260px;
     padding: 20px 10px ;
     box-sizing: border-box;
     background: #CEE3F1;
@@ -305,16 +304,6 @@ address p {
     text-align: center;
     margin: 20px;
 }
-.contents h4 {
-    width: 190px;
-    height: 50px;
-    box-sizing: border-box;
-    font-size: 20px;
-    background: #CEE3F1;
-    text-align: center;
-    padding: 16px;
-    margin: 20px 0 10px 0;
-}
 .resort-img {
     width: 630px;
     height: 385px;
@@ -323,11 +312,11 @@ address p {
 .resort-text {
     margin: 20px 0 0 0;
 }
-.resort-tab {
+.tab-menu {
     display: flex;
     justify-content: space-between;
 }
-.resort-tab li {
+.tab-menu li {
     width: 190px;
     height: 50px;
     box-sizing: border-box;
@@ -348,4 +337,30 @@ address p {
 }
 .tab-contents ul {
     display: none;
+}
+/* promotion */
+.event-contents li {
+    background: #ffffff;
+    width: 382px;
+    height: 212px;
+    box-sizing: border-box;
+    border: 1px solid #4F93C3;
+}
+.event-contents h3 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 15px 0 5px 15px;
+}
+.event-contents h4 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0 0 20px 15px;
+}
+.event-contents h5 {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0 0 0 15px;
 }

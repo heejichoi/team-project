@@ -4,7 +4,7 @@ $(function(){
     menu();
     setInterval(carousel, 4000);
     sidemenu();
-    infotab();
+    tab();
 })
 function popup(){
     $("#popup button").click(function(){
@@ -41,13 +41,13 @@ function sidemenu(){
         $(this).removeClass("side-on");
     });
 };
-function infotab(){
-    $(".resort-tab > li").click(function(){
-        const num = $(".resort-tab > li").index($(this));
-        $(".resort-tab > li").removeClass("info-active");
+function tab(){
+    $(".tab-menu > li").click(function(){
+        const num = $(".tab-menu > li").index($(this));
+        $(".tab-menu > li").removeClass("info-active");
         $(".tab-contents > ul").removeClass("on");
         console.log(num);
-        $(".resort-tab > li").eq(num).addClass("info-active");
+        $(".tab-menu > li").eq(num).addClass("info-active");
         $(".tab-contents > ul").eq(num).addClass("on");
     });
 };

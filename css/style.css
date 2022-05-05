@@ -345,6 +345,8 @@ address p {
     height: 212px;
     box-sizing: border-box;
     border: 1px solid #4F93C3;
+    float: left;
+    margin: 20px;
 }
 .event-contents h3 {
     text-align: left;

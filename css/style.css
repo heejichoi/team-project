@@ -339,6 +339,15 @@ address p {
     display: none;
 }
 /* promotion */
+.event-contents ul {
+    width: 850px;
+    box-sizing: border-box;
+}
+.event-contents ul p {
+    width: 760x;
+    height: 210px;
+    margin: 20px;
+}
 .event-contents li {
     background: #ffffff;
     width: 382px;

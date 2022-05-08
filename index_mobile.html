@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>금호리조트</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7435ab004e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style_mobile.css">
+    <script src="script/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1 class="d-none">금호리조트</h1>
+    <div id="popup">
+        <img src="images/popup.png" alt="팝업">
+        <button>&times; 닫기</button>
+    </div>
+    <div class="header-bar">
+        <div class="logo"><a href="/"><img src="images/logo.png" alt="로고"></a></div>
+        <div class="burger"><i class="fa-solid fa-bars"></i></div>
+        <div class="close"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+    <div class="body-wrap">
+        <div class="header-wrap">
+            <header>
+                <ul id="snb">
+                    <li><a href="/index">메인으로 가기</a></li>
+                    <li><a href="/login">로그인/회원가입</a></li>
+                    <li><a href="/payment">결제</a></li>
+                </ul>
+                <div class="gnb-wrap">
+                    <ul id="gnb">
+                        <li>
+                            <a href="#" class="menuhover">리조트</a>
+                            <ul class="lnb">
+                                <li><a href="/resort">통영리조트</a></li>
+                                <li><a href="/hwasun">화순리조트</a></li>
+                                <li><a href="/sulak">설악리조트</a></li>
+                                <li><a href="/jeju">제주리조트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menuhover">워터파크</a>
+                            <ul class="lnb">
+                                <li><a href="#">화순아쿠아나</a></li>
+                                <li><a href="#">제주아쿠아나</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menuhover">예약</a>
+                            <ul class="lnb">
+                                <li><a href="/reservation">객실/패키지예약</a></li>
+                                <li><a href="/check">예약/사용 내역 조회</a></li>
+                                <li><a href="/payment">이용권 구매</a></li>
+                                <li><a href="/member">회원권 분양</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menuhover">프로모션</a>
+                            <ul class="lnb">
+                                <li><a href="/promotion">이벤트</a></li>
+                                <li><a href="/country">지역특산물</a></li>
+                                <li><a href="/coupon">할인쿠폰</a></li>
+                                <li><a href="/discount">제휴할인시설</a></li>
+                                <li><a href="/story">여행이야기</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menuhover">고객센터</a>
+                            <ul class="lnb">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">고객의 소리함</a></li>
+                                <li><a href="#">분실물 센터</a></li>
+                                <li><a href="#">자료실</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="gnb-bg"></div>
+            </header>
+        </div>
+        <section>
+            <div class="carousel">
+                <div class="img-wrap">
+                    <img src="images/slide1.jpg" alt="slide1">
+                    <img src="images/slide2.jpg" alt="slide2">
+                    <img src="images/slide3.jpg" alt="slide3">
+                </div>
+            </div>
+        </section>
+        <article class="gallery">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="gallery-cover">
+                            <h2>설악리조트</h2>
+                            <h3>조식 테이크아웃 패키지</h3>
+                        </div>
+                        <img src="images/gallery1.jpg" alt="gallery1">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="gallery-cover">
+                            <h2>설악리조트</h2>
+                            <h3>야외 바비큐세트 출시</h3>
+                        </div>
+                        <img src="images/gallery2.jpg" alt="gallery2">
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="gallery-cover">
+                            <h2>제주리조트</h2>
+                            <h3>제주 뚜벅이 여행</h3>
+                        </div>
+                        <img src="images/gallery3.jpg" alt="gallery3">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="gallery-cover">
+                            <h2>금호리조트</h2>
+                            <h3>더 나은 세상을 응원합니다</h3>
+                        </div>
+                        <img src="images/gallery4.jpg" alt="gallery4">
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="gallery-cover">
+                            <h2>화순리조트</h2>
+                            <h3>조리장 추천 메뉴</h3>
+                        </div>
+                        <img src="images/gallery5.jpg" alt="gallery5">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="gallery-cover">
+                            <h2>통영마리나리조트</h2>
+                            <h3>더카트인통영 제휴 안내</h3>
+                        </div>
+                        <img src="images/gallery6.jpg" alt="gallery6">
+                    </a>
+                </li>
+            </ul>
+        </article>
+        <article class="campaign-wrap">
+            <div class="campaign">
+                <a href="#">
+                    <h2>바른 회원권 이용문화 캠페인</h2>
+                    <h3>올바른 회원권 이용으로<br>회원의 가치를 지켜주세요</h3>
+                    <p><i class="fa-solid fa-ticket"></i></p>
+                </a>
+            </div>
+            <div class="campaign">
+                <a href="#">
+                    <h2>바른 예약문화 캠페인</h2>
+                    <h3>No-Show는 No!<br>예약은 약속입니다</h3>
+                    <p><i class="fa-solid fa-hand"></i></p>
+                </a>
+            </div>
+        </article>
+    </div>
+    <footer>
+        <address>
+            <p>회사소개 | 제휴문의 | 공정거래자율준수선언 | 개인정보처리방침 | 이용약관 | 전자공고 | 온라인 제보실</p>
+            <p>서울특별시 중구 청계천로 100 7층 시그니처타워 서관 / 대표이사:김성일 TEL 02-737-5400/FAX 02-725-2811</p>
+            <p>사업자등록번호 : 142-81-03111 금호리조트(주) / 통신판매업신고:2014-용인처인-0034</p>
+            <p>COPYRIGHT 2008-2022 BY KUMHO RESORT. ALL RIGHTS RESERVED.</p>
+        </address>
+        <aside>
+            <img src="images/footer1.png" alt="footer1">
+            <img src="images/footer2.png" alt="footer2">
+        </aside>
+    </footer>
+    <script src="script/main_mobile.js"></script>
+</body>
+</html>

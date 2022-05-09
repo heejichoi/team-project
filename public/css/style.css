@@ -101,3 +101,132 @@ header {
     top: 100px;
     background: #F1F1F1;
 }
+#sub-menu{
+display: flex;
+border-radius: 1px;
+}
+.contents{
+    max-width: 1200;
+    height: 200px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+.slide {
+    max-width: 1200;
+    height: 200px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#items {
+    transition: all ease-in-out .3s;
+}
+#items2 {
+    transition: all ease-in-out .3s;
+}
+.slide2 {
+    max-width: 1200;
+    height: 300px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#items > h2{
+    border-bottom: 3px solid #5F9DC8;
+    padding: 10px;
+    font-weight: bold;
+}
+#items ul{
+    padding: 10px;
+}
+#items2 > h2{
+    border-bottom: 3px solid #5F9DC8;
+    padding: 10px;
+    font-weight: bold;
+}
+#items2 ul{
+    padding: 10px;
+}
+.time {
+    max-width: 1200;
+    height: 500px;
+    padding: 30px;
+}
+.time-wrap {
+    max-width: 1200;
+    height: 500px;
+    padding: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+.time > h2 {
+    border-bottom: 3px solid #5F9DC8; 
+    padding: 10px;
+    font-weight: bold;
+}
+.aquana {
+    padding: 20px;
+    color: #0E3C82;
+}
+.aquana > h2 {
+    color: #5F9DC8;
+    border-left: 3px solid #0E3C82; 
+}
+.hot-water {
+    padding: 10px;
+    color: #0E3C82;
+}
+.hot-water > h2{
+    color: #5F9DC8;
+    border-left: 3px solid #0E3C82; 
+}
+.tavelstory > h2 {
+    color: #0E3C82;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px;
+    border-bottom: 3px solid #5F9DC8; 
+}
+.trip {
+    max-width: 1200;
+    height: 400px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.trip > h2{
+    color: #0E3C82;
+    border-bottom: 3px solid #5F9DC8; 
+    padding: 10px;
+    font-weight: bold;
+}
+.food {
+    max-width: 1200;
+    height: 400px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.food > h2{
+    color: #0E3C82;
+    border-bottom: 3px solid #5F9DC8; 
+    padding: 10px;
+    font-weight: bold;
+}
+.healling{
+    max-width: 1200;
+    height: 863px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.active{
+    max-width: 1200;
+    height: 799px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}

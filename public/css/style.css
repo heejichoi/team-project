@@ -113,42 +113,68 @@ border-radius: 1px;
     overflow: hidden;
     display: flex;
 }
-.slide {
-    max-width: 1200;
+.slide{
+    max-width: 1200px;
     height: 200px;
-    padding: 40px;
+    padding: 20px;
     margin: 0 auto;
-    overflow: hidden;
 }
-#items {
-    transition: all ease-in-out .3s;
-}
-#items2 {
-    transition: all ease-in-out .3s;
-}
-.slide2 {
-    max-width: 1200;
-    height: 300px;
-    padding: 40px;
+.slide2{
+    max-width: 1200px;
+    height: 200px;
+    padding: 20px;
     margin: 0 auto;
-    overflow: hidden;
 }
-#items > h2{
+.items-wrap{
+    width: 500px;
+    height: 200px;
+}
+#items{
+    position: relative;
+}
+.top {
+    opacity: 1 !important; 
+    z-index: 1;
+}
+#items > li {
+    position: absolute;
+    transition: all ease-in-out .3s;
+    opacity: 0;
+    z-index: 0;
+    width: 500px;
+    height: 200px;
+}
+#items2 > li img {
+    width: 100%;
+}
+.items2-wrap{
+    width: 500px;
+    height: 200px;
+}
+#items2{
+    position: relative;
+}
+
+#items2 > li {
+    position: absolute;
+    transition: all ease-in-out .3s;
+    opacity: 0;
+    z-index: 0;
+    width: 500px;
+    height: 200px;
+}
+#items2 > li img {
+    width: 100%;
+}
+
+
+h2{
     border-bottom: 3px solid #5F9DC8;
+    width: 700px;
     padding: 10px;
     font-weight: bold;
 }
-#items ul{
-    padding: 10px;
-}
-#items2 > h2{
-    border-bottom: 3px solid #5F9DC8;
-    padding: 10px;
-    font-weight: bold;
-}
-#items2 ul{
-    padding: 10px;
-}
+
 .time {
     max-width: 1200;
     height: 500px;
@@ -164,22 +190,25 @@ border-radius: 1px;
 }
 .time > h2 {
     border-bottom: 3px solid #5F9DC8; 
+    width: 700px;
     padding: 10px;
     font-weight: bold;
 }
 .aquana {
-    padding: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
     color: #0E3C82;
 }
-.aquana > h2 {
+.aquana > info {
     color: #5F9DC8;
     border-left: 3px solid #0E3C82; 
 }
 .hot-water {
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
     color: #0E3C82;
 }
-.hot-water > h2{
+.hot-water > info{
     color: #5F9DC8;
     border-left: 3px solid #0E3C82; 
 }

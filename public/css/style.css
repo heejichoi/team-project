@@ -105,6 +105,38 @@ header {
 display: flex;
 border-radius: 1px;
 }
+.wrap{
+    display: flex;
+    padding: 10px;
+    column-gap: 10px;
+}
+.sidebar {
+    width: 265px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: #CEE3F1;
+}
+.sidebar p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0E3C82;
+    padding: 0 0 0 15px;
+}
+.sidebar ul {
+    border-top: 5px solid #4F93C3;
+    padding: 10px 0;
+    margin: 15px 0 0 0;
+}
+.sidebar li {
+    font-size: 16px;
+    width: 230px;
+    height: 30px;
+    margin: 2px 0;
+    padding: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+
 .contents{
     max-width: 1200;
     height: 200px;
@@ -118,6 +150,7 @@ border-radius: 1px;
     height: 200px;
     padding: 20px;
     margin: 0 auto;
+    position: relative;
 }
 .slide2{
     max-width: 1200px;

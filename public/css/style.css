@@ -1,0 +1,294 @@
+@charset "utf-8";
+::selection {
+    background: #3F93C3;
+    color: #ffffff;
+}
+a,a:link {
+    text-decoration: none;
+    color: inherit;
+}
+ul,li {
+    list-style: none;
+}
+.d-none {
+    display: none;
+}
+body {
+    font-family: 'Noto Sans KR, sans-serif';
+}
+.header-wrap {
+    height: 100px;
+    background: #CEE3F1;
+}
+header {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+}
+#snb {
+    position: absolute;
+    display: flex;
+    top: 20%;
+    right: 0%;
+    gap: 20px;
+    font-size: 13px;
+    color: #333333;
+}
+.gnb-wrap {
+    display: flex;
+    align-items: flex-end;
+}
+#gnb {
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#gnb > li {
+    width: 150px;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+}
+#gnb > li > a {
+    display: block;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.lnb {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    height: 150px;
+    top: 100%;
+    color: #333333;
+}
+.lnb a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
+.lnb li {
+    width: 150px;
+}
+.lnb li a {
+    text-align: center;
+}
+.menuhover {
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    color: #0E3C82 !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+.menuhover:hover {
+    border-bottom: 5px solid #0E3C82;
+}
+.lnb li a:hover {
+    color: #0E3C82;
+    font-weight: 700;
+}
+.gnb-bg {
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    top: 100px;
+    background: #F1F1F1;
+}
+#sub-menu{
+display: flex;
+border-radius: 1px;
+}
+.wrap{
+    display: flex;
+    padding: 10px;
+    column-gap: 10px;
+}
+.sidebar {
+    width: 265px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: #CEE3F1;
+}
+.sidebar p {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0E3C82;
+    padding: 0 0 0 15px;
+}
+.sidebar ul {
+    border-top: 5px solid #4F93C3;
+    padding: 10px 0;
+    margin: 15px 0 0 0;
+}
+.sidebar li {
+    font-size: 16px;
+    width: 230px;
+    height: 30px;
+    margin: 2px 0;
+    padding: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contents{
+    max-width: 1200;
+    height: 200px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+.slide{
+    max-width: 1200px;
+    height: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.slide2{
+    max-width: 1200px;
+    height: 200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.items-wrap{
+    width: 500px;
+    height: 200px;
+}
+#items{
+    position: relative;
+}
+.top {
+    opacity: 1 !important; 
+    z-index: 1;
+}
+#items > li {
+    position: absolute;
+    transition: all ease-in-out .3s;
+    opacity: 0;
+    z-index: 0;
+    width: 500px;
+    height: 200px;
+}
+#items2 > li img {
+    width: 100%;
+}
+.items2-wrap{
+    width: 500px;
+    height: 200px;
+}
+#items2{
+    position: relative;
+}
+
+#items2 > li {
+    position: absolute;
+    transition: all ease-in-out .3s;
+    opacity: 0;
+    z-index: 0;
+    width: 500px;
+    height: 200px;
+}
+#items2 > li img {
+    width: 100%;
+}
+
+
+h2{
+    border-bottom: 3px solid #5F9DC8;
+    width: 700px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.time {
+    max-width: 1200;
+    height: 500px;
+    padding: 30px;
+}
+.time-wrap {
+    max-width: 1200;
+    height: 500px;
+    padding: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+.time > h2 {
+    border-bottom: 3px solid #5F9DC8; 
+    width: 700px;
+    padding: 10px;
+    font-weight: bold;
+}
+.aquana {
+    padding-top: 10px;
+    padding-right: 30px;
+    color: #0E3C82;
+}
+.aquana > info {
+    color: #5F9DC8;
+    border-left: 3px solid #0E3C82; 
+}
+.hot-water {
+    padding-top: 10px;
+    padding-right: 30px;
+    color: #0E3C82;
+}
+.hot-water > info{
+    color: #5F9DC8;
+    border-left: 3px solid #0E3C82; 
+}
+.tavelstory > h2 {
+    color: #0E3C82;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px;
+    border-bottom: 3px solid #5F9DC8; 
+}
+.trip {
+    max-width: 1200;
+    height: 400px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.trip > h2{
+    color: #0E3C82;
+    border-bottom: 3px solid #5F9DC8; 
+    padding: 10px;
+    font-weight: bold;
+}
+.food {
+    max-width: 1200;
+    height: 400px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.food > h2{
+    color: #0E3C82;
+    border-bottom: 3px solid #5F9DC8; 
+    padding: 10px;
+    font-weight: bold;
+}
+.healling{
+    max-width: 1200;
+    height: 863px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.active{
+    max-width: 1200;
+    height: 799px;
+    padding: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+}
